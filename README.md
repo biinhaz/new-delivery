@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# New Delivery
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Interplanetary Delivery Address Manager é uma aplicação que permite aos usuários gerenciar seus endereços salvos para entregas em diferentes planetas. Com esta aplicação, os usuários podem visualizar, adicionar, editar e deletar endereços de forma simples e intuitiva.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Visualizar Endereços:** Veja todos os endereços salvos em uma lista organizada.
+- **Adicionar Novo Endereço:** Adicione novos endereços com informações detalhadas.
+- **Editar Endereço:** Edite as informações de qualquer endereço salvo.
+- **Deletar Endereço:** Remova endereços que não são mais necessários.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React:** Biblioteca JavaScript para construção de interfaces de usuário.
+- **CSS:** Estilização básica dos componentes.
+- **Tailwind CSS:** Framework CSS para estilização rápida e responsiva.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone o repositório:
+   git clone https://github.com/biinhaz/new-delivery.git
+   cd new-delivery
 
-### `npm run build`
+2. Instale as dependências:
+   npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Inicie a aplicação:
+   npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+A aplicação estará disponível em `http://localhost:3000`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+1. **Visualizar Endereços:** Ao abrir a aplicação, você verá uma lista de endereços salvos.
+2. **Adicionar Endereço:** Clique no botão "Add Address" para abrir o formulário de adição. Preencha as informações e clique em "Save".
+3. **Editar Endereço:** Clique no ícone de lápis em um endereço existente para abrir o formulário de edição. Altere as informações e clique em "Save".
+4. **Deletar Endereço:** Clique no ícone de lixeira em um endereço existente para deletá-lo.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Code Overview
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `AddressCard.js`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Componente responsável por renderizar cada endereço. Possui funcionalidades para editar e deletar endereços.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### `Addresses.js`
 
-## Learn More
+Componente que lista todos os endereços salvos. Também contém a lógica para adicionar novos endereços e deletar endereços existentes.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### `AddAddressCard.js`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Componente para adicionar um novo endereço. Inclui um formulário para entrada de dados do usuário.
 
-### Code Splitting
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Se você deseja contribuir com o projeto, siga os passos abaixo:
 
-### Analyzing the Bundle Size
+1. Fork o repositório.
+2. Crie uma nova branch:
+   git checkout -b minha-nova-feature
+3. Faça suas modificações e commit:
+   git commit -m "Adicionar nova feature"
+4. Envie suas mudanças:
+   git push origin minha-nova-feature
+5. Abra um Pull Request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
+Este projeto está licenciado sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contact
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Para dúvidas ou sugestões, entre em contato com [dev.biamiranda@gmail.com](mailto:dev.biamiranda@gmail.com)
